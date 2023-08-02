@@ -120,3 +120,8 @@ console.log(croosingRoad('red')) */
 }
 console.log(croosingRoad('lal')); */
 
+
+function second(){
+    console.log('Hello git')
+}
+second()
