@@ -74,7 +74,7 @@ for(let i=0;i<bookPrice;i++){
 console.log(x++)
 console.log(++x) */
 
-var oldCloth = "perfect";
+/* var oldCloth = "perfect";
 var oldCloth = "notPerfect";
 
 if (oldCloth === "notPerfect") {
@@ -83,4 +83,4 @@ if (oldCloth === "notPerfect") {
   console.log("i will not buy new");
   log;
 }
-console.log("");
+console.log(""); */
