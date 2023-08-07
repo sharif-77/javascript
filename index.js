@@ -34,14 +34,57 @@ function barbieken(str){
 }
 console.log(barbieken('sharifs')); */
 
-// let obj={
-//   name:'sharif',
-//   age:23,
-//   profession:'student'
-// }
-let obj=100
-let arr=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
-
-for(let i in obj){
-  console.log(i);
+/* //array reverse 
+let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,45,55]
+let reverse=[]
+for(let i=arr.length-1;i>=0;i--){
+  reverse.push(arr[i])
 }
+console.log(arr.reverse());
+console.log(reverse); */
+
+/* // text reverse 
+const reverse = (string) => {
+  const newText = string
+    .split("")
+    .reverse()
+    .join("");
+  
+  return newText
+};
+
+console.log(reverse("Hello world")) */
+
+// print long digit
+let arr=[20,30,40,50,60,70,80,90,100,120,130,1470]
+for(let i of arr){
+  if(i>80){
+    console.log(i);
+  }
+}
+
+
+
+
+
+// self assesment
+let x='sharif';
+let y=true;
+let z=12345;
+
+let changeable=5;
+changeable=6;
+const notChangeable='sharif'
+
+let num1=10;
+let num2=20;
+let adission=num1+num2
+let substeaction=Math.abs(num1-num2)
+let multipication=num1*num2
+let divission=num1/num2
+let remainder=num2%num1
+console.log(adission,substeaction,multipication,divission,remainder);
+
+
+
+

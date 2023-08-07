@@ -140,9 +140,18 @@ function fndVowelConsonantSpace(sentence) {
 console.log(fndVowelConsonantSpace(sentence)); */
 
 // find biggest name from an array
-const names=['aik', 'arif', 'asik', 'nahid', 'sharif', 'tanvir', 'sad', 'abdullah']
+const names=['atik', 'arif', 'asik', 'nahid', 'sharif', 'tanvir', 'sad', 'abdullah']
 
 function findBigName(names){
+  let biggest='';
+  for(let i of names){
+    if(i.length>biggest.length){
+      biggest=i
+
+    }
+  }
+  return biggest
 
 }
 console.log(findBigName(names));
+// console.log('hello');
