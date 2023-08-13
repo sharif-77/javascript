@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module-25</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <ul id="list-box" style="font-size: larger; height: 200px">
+      <li class="item-1">Statically added-1</li>
+      <li class="item-2">Statically added-2</li>
+      <li class="item-3">Statically added-3</li>
+      <li class="item-4">Statically added-4</li>
+      <li class="item-5">Statically added-5</li>
+    </ul>
+
+    <textarea name="" id="comment-box" cols="40" rows="5"></textarea>
+    <button id="comment-btn" style="display: block; margin: 20px 0">
+      comment
+    </button>
+    <!-- value add remove end -->
+
+    <!-- input like github start -->
+    <p id="git-output" style="margin-top: 10px"></p>
+    <input id="git-input" type="text" />
+    <button id="git-delete-btn" style="display: block; margin-top: 10px">
+      comment
+    </button>
+    <!-- input like github end -->
+
+    <script>
+      document
+        .getElementById("git-input")
+        .addEventListener("keyup", (event) => {
+          let value=event.target.value;
+          if(value==='delete'){
+            document.getElementById('git-delete-btn').setAttribute('disabled',true)
+          }else{
+            document.getElementById('git-delete-btn').removeAttribute('disabled')
+          }
+        });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
